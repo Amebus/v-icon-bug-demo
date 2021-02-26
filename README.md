@@ -1,4 +1,6 @@
-# demo
+# Demo to Reproduce Vuetify Bug
+
+See https://github.com/vuetifyjs/vuetify/issues/13163
 
 ## Project setup
 ```
