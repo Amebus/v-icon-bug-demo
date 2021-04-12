@@ -1,6 +1,8 @@
 # Demo to Reproduce Vuetify Bug
 
-See https://github.com/vuetifyjs/vuetify/issues/13163 and https://github.com/vuetifyjs/vuetify/issues/12962
+See https://github.com/vuetifyjs/vuetify/issues/13163
+
+Forked from https://github.com/nanpx/v-icon-bug-demo for issue https://github.com/vuetifyjs/vuetify/issues/13163
 
 ## Project setup
 
