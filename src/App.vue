@@ -14,6 +14,8 @@
 import ThumbsUp from './components/thumbs-up';
 import Vue from 'vue';
 
+import vuetify from './plugins/vuetify';
+
 export default {
   components: {
     ThumbsUp,
@@ -21,12 +23,14 @@ export default {
    methods: {
     onClickElDocumentCreateElement: function() {
       new (Vue.extend(ThumbsUp))({
-        el: document.createElement('div')
+        el: document.createElement('div'),
+        vuetify // suggested (and working) fix for the issue https://github.com/vuetifyjs/vuetify/issues/13417
       });
     },
     onClickElString: function() {
       new (Vue.extend(ThumbsUp))({
-        el: '#thumbs-up__container'
+        el: '#thumbs-up__container',
+        vuetify // suggested (and working) fix for the issue https://github.com/vuetifyjs/vuetify/issues/13417
       });
     }
   }
